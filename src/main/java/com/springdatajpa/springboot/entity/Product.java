@@ -113,6 +113,5 @@ public class Product {
     private ProductCategory category;
 
     private String featurebranch1;
-
-    private String mainbranch1;
+    private String featurebranch2;
 }
