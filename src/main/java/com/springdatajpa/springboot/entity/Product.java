@@ -112,5 +112,7 @@ public class Product {
     @JoinColumn(name = "category_id", referencedColumnName = "id")
     private ProductCategory category;
 
+    private String featurebranch1;
+
     private String mainbranch1;
 }
