@@ -111,4 +111,6 @@ public class Product {
     @ManyToOne
     @JoinColumn(name = "category_id", referencedColumnName = "id")
     private ProductCategory category;
+
+    private String mainbranch1;
 }
