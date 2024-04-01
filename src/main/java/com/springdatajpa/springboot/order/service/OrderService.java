@@ -68,6 +68,7 @@ public class OrderService {
                 System.out.println("sucessfull");
                 System.out.println("failure");
                 System.out.println("cherry pick - main branch");
+                System.out.println("cherry pick - first commit");
             }
         }
     }

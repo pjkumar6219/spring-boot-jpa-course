@@ -29,4 +29,9 @@ public class Address {
     @OneToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "order_id", referencedColumnName = "id")
     private Order order;
+
+    //checking for Stash
+    private String forStash;
+
+
 }
