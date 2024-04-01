@@ -274,4 +274,6 @@ public class Order {
 
     private String localChanges;
     private String localChanges2;
+
+    private String resethead;
 }
