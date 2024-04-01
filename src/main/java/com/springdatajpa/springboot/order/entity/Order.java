@@ -271,4 +271,7 @@ public class Order {
 
     @Column(name = "updated_time", nullable = false)
     private LocalDateTime updatedTime;
+
+    private String localChanges;
+    private String localChanges2;
 }
